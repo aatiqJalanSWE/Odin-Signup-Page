@@ -1,12 +1,12 @@
-document.addEventListener("DOMContentLoaded", function() {
-    let password = document.querySelector("#password").value;
-    let confirmPassword = document.querySelector("#confirmPassword").value;
+document.addEventListener("DOMContentLoaded", function () {
+  let password = document.querySelector("#password").value;
+  let confirmPassword = document.querySelector("#confirmPassword").value;
 
-    let error = document.querySelector("#error");
+  let error = document.querySelector("#error");
 
-    if (password == "" && confirmPassword == "") {
-        error.innerHTML = "*passwords do not match";
-    } else if (password === confirmPassword) {
-        error.innerHTML = "";
-    }
+  if (password == "" && confirmPassword == "") {
+    error.innerHTML = "*passwords do not match";
+  } else if (password === confirmPassword) {
+    error.innerHTML = "";
+  }
 });
