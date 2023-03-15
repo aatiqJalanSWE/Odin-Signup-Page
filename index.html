@@ -37,11 +37,16 @@
               <div class="form-divs">
                 <div class="form-div">
                   <label for="firstName">FIRST NAME</label>
-                  <input type="text" id="firstName" name="first_name" />
+                  <input
+                    type="text"
+                    id="firstName"
+                    name="first_name"
+                    required
+                  />
                 </div>
                 <div class="form-div">
                   <label for="email">EMAIL</label>
-                  <input type="email" id="email" name="email" />
+                  <input type="email" id="email" name="email" required />
                 </div>
                 <div class="form-div">
                   <label for="password">PASSWORD</label>
@@ -51,17 +56,22 @@
                     name="password"
                     required
                   />
-                  <p id="error">*passwords do not match</p>
+                  <p id="error">*passwords does not match</p>
                 </div>
               </div>
               <div class="form-divs">
                 <div class="form-div">
                   <label for="lastName">LAST NAME</label>
-                  <input type="text" id="lastName" name="last_name" />
+                  <input type="text" id="lastName" name="last_name" required />
                 </div>
                 <div class="form-div">
                   <label for="phoneNumber">PHONE NUMBER</label>
-                  <input type="tel" id="phoneNumber" name="phoneNumber" />
+                  <input
+                    type="tel"
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    required
+                  />
                 </div>
                 <div class="form-div">
                   <label for="confirmPassword">CONFIRM PASSWORD</label>
